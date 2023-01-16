@@ -31,7 +31,9 @@ In step 2:
 2. git checkout dev
 3. vi devopsexercise (now modifing the things) esc:wq!
 4. git add devopsexercise
-5. git commit -m "new message"
-6. 
+5. git commit -m "new message" (This will create a commit hash below) 
+6. git branch --contains <copy the commit hash generated>
+7. git push -u origin dev
+
 
  
