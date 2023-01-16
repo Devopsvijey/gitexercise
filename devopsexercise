@@ -6,4 +6,32 @@ This is devops exercise assigned to us,
 it is in git branches and here we going to perform the tasks
 
 
+Hi..
 
+This is step2.
+
+In step1; we have done
+
+1. create a new repo in your github
+2. come to VM and config git by the followings;
+   a. git config --global user.name "Devopsvijey"
+   b. git config --global user.email "kkvijeyabhaskaran@gmail.com"
+   c. git config --global -l
+3. ssh-keygen (copy our ssh public key to github key area) 
+4. vi devopsexercise i:test esc:wq!
+5. git init
+6. git add
+7. git commit -m "commit message"
+8. git push -u origin master
+
+
+In step 2:
+
+1. git branch dev
+2. git checkout dev
+3. vi devopsexercise (now modifing the things) esc:wq!
+4. git add devopsexercise
+5. git commit -m "new message"
+6. 
+
+ 
