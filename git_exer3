@@ -1,1 +1,58 @@
 Mario & Luigi
+
+
+Objective
+Learn how to squash commits
+
+Instructions
+In a git repository, create a new file with the content "Mario" and create a new commit
+Make change to the content of the file you just created so the content is "Mario & Luigi" and create another commit
+Verify you have two separate commits
+Squash the latest two commits into one commit
+After you complete the exercise
+Answer the following:
+
+What is the reason for squashing commits?
+Is it possible to squash more than 2 commits?
+
+Ans:
+===
+
+First change branch fro master to dev
+
+# git switch dev
+
+# git branch	(to validate our branch change)
+
+Now, change our editor as Vi unless it picks Nano Editor in future:
+
+# git config --global core.editor vi
+
+Now, doing our tasks:
+
+# touch git_exer3
+
+# echo "Mario" > git_exer3
+
+# git commit -a -m "Initial commit"
+
+# echo "Mario & Luigi" > git_exer3
+
+# git commit -a -m git_exer3
+
+# git rebase -i HEAD~2 (this will open Vi file to edit, change the second commit's 'pick' to 'squash' and save the file.
+A new editor will open where you can edit the commit message to summarize the changes made in both commits)
+
+# :wq!
+
+Now another file opens and shows Last two commit messgaes and merged messages.
+
+# The last two commits will now be squashed into one new commit with the updated commit message 
+
+# wq!
+
+Successfully rebased and updated refs/heads/dev.
+
+# git push origin dev  (This will pushes our files to github)
+
+
