@@ -47,7 +47,7 @@ A new editor will open where you can edit the commit message to summarize the ch
 
 Now another file opens and shows Last two commit messgaes and merged messages.
 
-# The last two commits will now be squashed into one new commit with the updated commit message 
+# "This is the combination of last two commits"
 
 # wq!
 
