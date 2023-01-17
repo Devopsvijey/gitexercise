@@ -24,5 +24,25 @@ In step 2:
 6. git branch --contains <copy the commit hash generated>
 7. git push -u origin dev
 
+Why branches are useful? Give an example of one real-world scenario for using branches.
 
- 
+Answer:
+
+Allow multiple users to work on the same project simultaneously without interfering with each other.
+
+Provide a way to test new features or bug fixes in isolation.
+
+Make it easy to roll back to a previous version of the code, in case something goes wrong.
+
+Provide a way to keep development, staging and production code separate.
+
+in general, make the development process more organized, efficient and less risky.
+
+Example:
+
+In a software devlopment project, The main branch, often referred to as the "master" branch, contains the production-ready code. 
+Developers can create separate branches for new features or bug fixes they are working on. 
+This allows them to work independently of each other without risking conflicts or breaking the main branch. 
+Once a developer has finished working on a feature or fix, they can submit a pull request to have their changes reviewed and merged into the main branch.	
+
+
