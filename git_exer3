@@ -55,4 +55,25 @@ Successfully rebased and updated refs/heads/dev.
 
 # git push origin dev  (This will pushes our files to github)
 
+========================================================================================================================================
+
+What is the reason for squashing commits?
+
+1. Code Review: When working in a team, it is a common practice to review code changes before they are merged into the main branch. Squashing commits makes it easier for reviewers to understand the changes made in a pull request by reducing the number of commits.
+
+2. Clean Git history: Squashing commits can help to keep the Git history clean and easy to understand. When a lot of small commits are made, it can make it difficult to understand the overall changes made to the codebase. Squashing commits can help to make the history more readable and meaningful.
+
+3. Reduce the number of merge conflicts: Squashing commits can help to reduce the number of merge conflicts that might occur when merging branches. When there are a lot of small commits, it can be difficult to resolve merge conflicts. Squashing commits can help to simplify the merge process by reducing the number of conflicts.
+
+4. Remove unnecessary commits: Sometimes, while working on a feature or bug fix, developers might make commits that are not necessary or relevant to the final solution. Squashing commits can help to remove these unnecessary commits and keep the history clean.
+
+
+
+Is it possible to squash more than 2 commits?
+
+Yes, it is possible to squash more than two commits.
+
+If it is two commits, we use command "git rebase -i HEAD~2"
+If we are giving 5 commits, then command "git rebase -i HEAD~5"
+
 
