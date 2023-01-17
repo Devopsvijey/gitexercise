@@ -18,8 +18,9 @@ In step1; we have done
    b. git config --global user.email "kkvijeyabhaskaran@gmail.com"
    c. git config --global -l
 3. ssh-keygen (copy our ssh public key to github key area) 
-4. vi devopsexercise i:test esc:wq!
+4. git clone "git@github.com:Devopsvijey/gitexercise.git"
 5. git init
+touch devopsexercise
 6. git add
 7. git commit -m "commit message"
 8. git push -u origin master
